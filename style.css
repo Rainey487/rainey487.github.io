@@ -96,6 +96,41 @@ footer nav ul li a:active {
     color: lightgray;
 }
 
+.contactItems form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5em 0 0;
+}
+
+.contactItems form label {
+    padding: 0 0 0.5em 0;
+}
+
+.contactItems form input {
+    margin: 0 0 0.5em 0;
+    height: 2em;
+    border-radius: 0.25em;
+    border: solid 0.002em black;
+    padding: 0.25em;
+}
+
+.contactItems form button {
+    margin: 0 0 0.5em 0;
+    height: 2em;
+    border-radius: 0.25em;
+    border: solid 0.002em black;
+    padding: 0.25em;
+    background-color: #fef108;
+}
+
+.contactItems #subject {
+    margin: 0 0 0.5em 0;
+    height: 6em;
+    border-radius: 0.25em;
+    border: solid 0.002em black;
+    padding: 0.25em;
+}
+
 @media only screen and (min-width: 1024px) {
     
     header {
@@ -158,5 +193,9 @@ footer nav ul li a:active {
         position: relative;
         right: 0;
         padding-right: 10em;
+    }
+
+    main .contactItems {
+        height: 23em;
     }
 }
