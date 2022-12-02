@@ -131,6 +131,10 @@ footer nav ul li a:active {
     padding: 0.25em;
 }
 
+iframe {
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 1024px) {
     
     header {
@@ -197,5 +201,9 @@ footer nav ul li a:active {
 
     main .contactItems {
         height: 23em;
+    }
+    
+    iframe {
+        margin: 0 auto;
     }
 }
